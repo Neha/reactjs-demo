@@ -1,0 +1,159 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family:arial;
+	font-size:12px;
+	color: #000;
+}
+
+#container{
+	
+	margin:0 auto;
+	background:#eee;
+	width:980px;
+	
+	}
+
+.wrap{
+	width:980px;
+	margin:0 auto;
+}
+
+header{
+	border-bottom:4px solid  #fff;
+	
+	float: left;
+	width:960px;
+	color: #fff;
+	padding-bottom:10px;
+	overflow: hidden;
+	background: cadetblue;
+	padding:10px;
+}
+
+ul li{
+	list-style:none;
+}
+
+.logoContainer{
+	float:left;
+	max-width:400px;
+}
+
+.logoContainer .logo h1{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.socialContainer{
+	float:right;
+	max-width:400px;
+}
+
+.socialContainer ul li{
+	display: inline;
+	margin:0 10px;
+	color:#999;
+	color:#fff;
+}
+
+.navigationContainer{
+	width:100%;
+	float:inherit;
+	margin-top:30px;
+}
+
+.navigationContainer .topNav a{
+	color: #000;
+	margin-right:10px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.content{
+	padding: 10px;
+	clear: both;
+	min-height: 350px;
+	
+
+}
+
+.content h3{
+	font-size:24px;
+	margin-top: 25px;
+	text-transform: uppercase;
+
+}
+
+.content h5{
+	font-size:14px;
+	display: inline-block;
+}
+
+.content span{
+	font-size:12px;
+}
+
+
+.content p{
+	font-size;14px;
+	line-height: 21px;
+	margin:10px 0;
+}
+
+
+.content ul:first-child{
+	    width: 130px;
+        float: left;
+}
+
+.content ul{
+	    width: 830px;
+        float: left;
+}
+
+footer{
+	background: turquoise;
+	padding:10px;
+}
+
+footer .logo{
+	text-align: center;
+
+}
+
+footer .social-links{
+	text-align: center;
+	margin:10px 0;
+}
+
+.galleryList li{
+	display: inline-block;
+}
+
+.galleryList img{
+	width:200px;
+	height: auto;
+	margin:10px;
+}
+
+footer .social-links ul li{
+	display: inline;
+	color:#000;
+	font-size: 11px;
+	margin-right:10px;
+}
+
+.leftNav ul li{
+	margin:10px 0;
+
+}
+
+.leftNav ul li a{
+	text-decoration: none;
+	font-size:14px;
+	
+}
